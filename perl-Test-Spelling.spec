@@ -1,6 +1,6 @@
 Name:           perl-Test-Spelling
 Version:        0.11
-Release:        6%{?dist}
+Release:        7%{?dist}
 Summary:        Check for spelling errors in POD files
 
 Group:          Development/Libraries
@@ -14,7 +14,7 @@ BuildArch:      noarch
 BuildRequires:  perl(Pod::Spell) >= 1.01
 BuildRequires:  perl(Test::Pod)
 Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
-Requires:       aspell
+Requires:       hunspell
 
 %description
 "Test::Spelling" lets you check the spelling of a POD file, and report
@@ -55,6 +55,10 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Jul 08 2011 Petr Sabata <contyk@redhat.com> - 0.11-7
+- Require hunspell instead of aspell
+- Resolves: rhbz#636835
+
 * Wed Jun 16 2010 Petr Sabata <psabata@redhat.com> - 0.11-6
 - Hunspell patch
 - Resolves: rhbz#592888
