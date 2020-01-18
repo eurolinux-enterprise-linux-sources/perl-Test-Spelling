@@ -1,6 +1,6 @@
 Name:           perl-Test-Spelling
 Version:        0.19
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Check for spelling errors in POD files
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -58,6 +58,9 @@ make test
 %{_mandir}/man3/Test::Spelling.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.19-2
+- Mass rebuild 2013-12-27
+
 * Sun May  5 2013 Paul Howarth <paul@city-fan.org> - 0.19-1
 - Update to 0.19:
   - For more consistent results, avoid using the user's local aspell dictionary
