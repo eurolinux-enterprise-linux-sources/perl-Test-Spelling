@@ -1,0 +1,15 @@
+--- lib/Test/Spelling.pm
++++ lib/Test/Spelling.pm
+@@ -34,10 +34,10 @@ sub spellchecker_candidates {
+     return $SPELLCHECKER if $SPELLCHECKER;
+ 
+     return (
+-        'spell', # for back-compat, this is the top candidate ...
++        'hunspell -l',
+         'aspell list -l en -p /dev/null', # ... but this should become first soon
+         'ispell -l',
+-        'hunspell -l',
++        'spell',
+     );
+ }
+ 

@@ -1,0 +1,72 @@
+---
+generation: 8
+last_run_time: 1366987823.5195
+tests:
+  t/basic.t:
+    elapsed: 0.0465278625488281
+    gen: 8
+    last_fail_time: 1366987823.46117
+    last_pass_time: 1366987750.13305
+    last_result: 15
+    last_run_time: 1366987823.46117
+    last_todo: 0
+    mtime: 1356046620
+    seq: 46
+    total_failures: 5
+    total_passes: 3
+  t/fake_checker.t:
+    elapsed: 0.0521571636199951
+    gen: 8
+    last_fail_time: 1366987823.45588
+    last_pass_time: 1366987750.13592
+    last_result: 15
+    last_run_time: 1366987823.45588
+    last_todo: 0
+    mtime: 1366986959
+    seq: 45
+    total_failures: 5
+    total_passes: 3
+  t/load.t:
+    elapsed: 0.00190591812133789
+    gen: 8
+    last_pass_time: 1366987823.41582
+    last_result: 0
+    last_run_time: 1366987823.41582
+    last_todo: 0
+    mtime: 1366987242
+    seq: 43
+    total_passes: 8
+  t/pod-spell.t:
+    elapsed: 0.0302088260650635
+    gen: 8
+    last_pass_time: 1366987823.51709
+    last_result: 0
+    last_run_time: 1366987823.51709
+    last_todo: 0
+    mtime: 1356046620
+    seq: 48
+    total_passes: 8
+  t/pod.t:
+    elapsed: 0.0278980731964111
+    gen: 8
+    last_pass_time: 1366987823.50121
+    last_result: 0
+    last_run_time: 1366987823.50121
+    last_todo: 0
+    mtime: 1356046620
+    seq: 47
+    total_passes: 8
+  t/stopword.t:
+    elapsed: 0.0294508934020996
+    gen: 8
+    last_fail_time: 1366987823.4445
+    last_pass_time: 1366987750.10773
+    last_result: 11
+    last_run_time: 1366987823.4445
+    last_todo: 0
+    mtime: 1366986959
+    seq: 44
+    total_failures: 5
+    total_passes: 3
+version: 1
+...
